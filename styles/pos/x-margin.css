@@ -14,9 +14,15 @@
     margin-left: 24.5%;  
 }
 
-.margin-left-25dot7{
+.margin-left-24dot7{
     margin-left: 24.7%;  
-}
+}   
+
+@media (max-width: 1366px) {
+    .margin-left-24dot7{
+        margin-left: 40%;  
+    }  
+  }
 
 .margin-left-25percent{
     margin-left: 25%;  
@@ -35,14 +41,6 @@
     margin-left: 33%;
 }
 
-@media (max-width: 812px) {
-    .margin-left-22dot5percent{
-        margin-left: 5%;
-    }
-    .margin-left-15percent{
-        margin-left: 5%;
-    }
-}
 
 /**/
 

@@ -2,6 +2,14 @@
     display: inline-block;
 }
 
+@media (max-width: 1366px) {
+    .buttons-flex {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
 .display-inline{
     display: inline;
 }
