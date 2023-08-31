@@ -1,0 +1,35 @@
+@font-face {    font-family: 'name';    src: url('../resources/name.ttf') format('opentype');  }
+@font-face {    font-family: 'spoiler';    src: url('../resources/spoiler.ttf') format('truetype');  }
+@font-face {    font-family: 'mail';        src: url('../resources/mail.otf') format('opentype');     }
+
+.captcha-box{
+    font-family: 'footer', sans-serif;
+    background: rgba(255, 255, 255, 0.24);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    border: 1px solid rgba(255, 255, 255, 0.19);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2em;
+    text-align: center;
+}
+    
+.turnstile-widget{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.email-title{
+  font-family: name, sans-serif;
+}
+
+#email-copy {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+  
+#email-copy:active {
+    transform: translateY(4px);
+}
