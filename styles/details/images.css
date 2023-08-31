@@ -10,14 +10,28 @@
     }
 }
 
-.gototop-icon{
+.buttons-main-icon{
     width: 100px;
     height: 100px;
+    transform: scale(0.8);
 }
 
 @media (max-width: 812px) {
-    .gototop-icon{
+    .buttons-main-icon{
         width: 40px;
         height: 40px;
     }
+}
+
+.back-icon{
+    transition: transform ease 0.3s;
+}
+
+.back-icon:hover {
+    transform: scale(0.9);
+    z-index: 1;
+  }
+  
+.back-icon:not(:hover) {
+  transform: scale(1);
 }

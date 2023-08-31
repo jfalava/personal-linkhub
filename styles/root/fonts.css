@@ -89,3 +89,27 @@
     src: url('../../static/fonts/newyork-regular.otf') format('opentype'),
          url('https://s3.jfalava.eu/static/fonts/newyork-regular.otf') format('opentype');
   }
+
+  @font-face {
+    font-family: 'gilroy-bold';
+    src: url('../../static/fonts/gilroy-bold.otf') format('opentype'),
+         url('https://s3.jfalava.eu/static/fonts/gilroy-bold.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: 'futura-bold';
+    src: url('../../static/fonts/futura-bold.otf') format('opentype'),
+         url('https://s3.jfalava.eu/static/fonts/futura-bold.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: 'myriad-pro-bold';
+    src: url('../../static/fonts/myriad-pro-bold.ttf') format('truetype'),
+         url('https://s3.jfalava.eu/static/fonts/myriad-pro-bold.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'keybase-serif';
+    src: url('../../static/fonts/keybase.woff') format('woff'),
+         url('https://s3.jfalava.eu/static/fonts/keybase.woff') format('woff');
+  }

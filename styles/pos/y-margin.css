@@ -10,6 +10,11 @@
     margin-top: 3vh;
 }
 
+.margin-top-10vh{
+    margin-top: 10vh;
+}
+
+
 .margin-top-25vh{
     margin-top: 25vh;
 }
@@ -49,10 +54,26 @@
 
 /**/
 
+.verticalalign-25px{
+    vertical-align: 25px;
+}
+
+.verticalalign-35px{
+    vertical-align: 35px;
+}
+
+.verticalalign-40px{
+    vertical-align: 40px;
+}
+
 .verticalalign-minus1vh{
     vertical-align: -1vh;
 }
 
 .verticalalign-top{
     vertical-align: top;
+}
+
+.verticalalign-middle{
+    vertical-align: middle;
 }
