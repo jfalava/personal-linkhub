@@ -5,7 +5,7 @@ if (window.matchMedia) {
     console.log('Dark mode is enabled.');
     window.onloadTurnstileCallback = function() {
       turnstile.render('#turnstile-widget', {
-        sitekey: '0x4AAAAAAAJZu7UspSy166MR',
+        sitekey: '0x4AAAAAAAELud_4ajT9ou1R',
         theme: 'dark',
         callback: function(token) {
           console.log(`Challenge Success ${token}`);
@@ -20,7 +20,7 @@ if (window.matchMedia) {
   } else {
     window.onloadTurnstileCallback = function() {
       turnstile.render('#turnstile-widget', {
-        sitekey: '0x4AAAAAAAJZu7UspSy166MR',
+        sitekey: '0x4AAAAAAAELud_4ajT9ou1R',
         theme: 'light',
         callback: function(token) {
           console.log(`Challenge Success ${token}`);
@@ -37,7 +37,7 @@ if (window.matchMedia) {
   console.log('matchMedia not supported, unable to determine dark mode.');
   window.onloadTurnstileCallback = function() {
     turnstile.render('#turnstile-widget', {
-      sitekey: '0x4AAAAAAAJZu7UspSy166MR',
+      sitekey: '0x4AAAAAAAELud_4ajT9ou1R',
       theme: 'dark',
       callback: function(token) {
         console.log(`Challenge Success ${token}`);
