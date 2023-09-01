@@ -18,9 +18,17 @@
     margin-left: 24.7%;  
 }   
 
-@media (max-width: 1366px) {
+@media (max-width: 723px) {
     .margin-left-24dot7{
-        margin-left: 40%;  
+        margin-left: 5%; 
+        margin-right:5%; 
+    }  
+  }
+
+@media (max-width: 1280px) {
+    .margin-left-24dot7{
+        margin-left: 20%; 
+        margin-right:20%; 
     }  
   }
 

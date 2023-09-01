@@ -16,6 +16,13 @@
     transform: scale(0.8);
 }
 
+@media (max-width: 1366px) {
+    .buttons-main-icon{
+        width: 80px;
+        height: 80px;
+    }
+}
+
 @media (max-width: 812px) {
     .buttons-main-icon{
         width: 40px;
