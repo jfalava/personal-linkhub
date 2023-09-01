@@ -20,6 +20,9 @@
     transform: scale(0.9);
     z-index: 1;
   }
+.main-menu-button:hover span {
+  color: rgb(24, 124, 255);
+  }
   
 .main-menu-button:not(:hover) {
   transform: scale(1);
