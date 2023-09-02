@@ -9,3 +9,15 @@
         margin-left: 2.5%;
     }
 }
+
+.captcha-box{
+    margin-right: 22.5%;
+    margin-left: 22.5%;
+}
+
+@media (max-width: 812px) {
+    .captcha-box{
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+    }
+}
